@@ -1,3 +1,3 @@
-### Kingsley Okpara
+# Kingsley Okpara
 
 ## Software Engineer
