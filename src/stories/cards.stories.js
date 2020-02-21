@@ -37,5 +37,10 @@ export const card = () => (
 
              <Card cardlayout="horizontalBanner" bgColor="white"></Card>
            </div>
+           <div>
+             <h1>horizontal Navbar</h1>
+
+             <Card cardlayout="horizontalNavbar" borderRadius="yes" bgColor="white"></Card>
+           </div>
          </ThemeProvider>
        );
