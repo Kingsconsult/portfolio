@@ -4,6 +4,7 @@ import NavLinks from "./components/links"
 import Button from "./components/buttons"
 import Typography from "./components/typography"
 import Circles from "./components/circles"
+import Line from "./components/lines"
 import {ThemeProvider} from "styled-components"
 const theme={
   mode:"light"
@@ -14,15 +15,9 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="App">
         <div>
-          <NavLinks color="black" linkType="nav" hover="blueBackground">
-            all works
-          </NavLinks>
-          <div>
-            <NavLinks color="black" linkType="footer" hover="blueBackground">
-              portfolio
-            </NavLinks>
-          </div>
+          <h1>hello</h1>
         </div>
+
       </div>
     </ThemeProvider>
   );

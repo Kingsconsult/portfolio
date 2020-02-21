@@ -14,7 +14,7 @@ export default {
   decorators: [withA11y, withKnobs]
 };
 
-export const defaultButton = () => (
+export const circle = () => (
          <ThemeProvider theme={theme}>
            <Circles circleHeight="small" circleWidth="small" border="border">
              {" "}
