@@ -19,8 +19,7 @@ export const line = () => (
            <div>
              <h1>Vertical line</h1>
              <Line
-               lineHeight="vertical"
-               lineWidth="vertical"
+               linelayout="vertical"
                bgColor="blue"
              ></Line>
            </div>
@@ -28,8 +27,7 @@ export const line = () => (
              <h1>horizontal line</h1>
 
              <Line
-               lineHeight="horizontal"
-               lineWidth="horizontal"
+               linelayout="horizontal"
                bgColor="blue"
              ></Line>
            </div>
