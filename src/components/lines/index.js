@@ -1,12 +1,11 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import { color, bgColor } from "../colors";
-import { lineLayout, lineLayout1 } from "./mixins";
+import { lineLayout } from "./mixins";
 
 const Line = styled.div`
   ${color};
   ${lineLayout};
-  ${lineLayout1};
   ${bgColor};
 `;
 
