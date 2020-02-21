@@ -1,25 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavLinks from "./components/links"
+import Button from "./components/buttons"
+import Typography from "./components/typography"
+import Circles from "./components/circles"
+import {ThemeProvider} from "styled-components"
+const theme={
+  mode:"light"
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <div>
+          <NavLinks color="black" linkType="nav" hover="blueBackground">
+            all works
+          </NavLinks>
+          <div>
+            <NavLinks color="black" linkType="footer" hover="blueBackground">
+              portfolio
+            </NavLinks>
+          </div>
+        </div>
+      </div>
+    </ThemeProvider>
   );
 }
 
