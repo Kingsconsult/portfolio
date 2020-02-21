@@ -14,7 +14,7 @@ export default {
   decorators: [withA11y, withKnobs]
 };
 
-export const defaultButton = () => (
+export const button = () => (
          <ThemeProvider theme={theme}>
            <Button bgColor="blue" color="white" padding="small">
              Small Button!

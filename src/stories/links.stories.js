@@ -13,7 +13,7 @@ export default {
   decorators: [withA11y, withKnobs]
 };
 
-export const paragraph = () => (
+export const link = () => (
          <ThemeProvider theme={theme}>
            <NavLinks color="black" linkType="nav" hover="blueBackground">
              navbar links

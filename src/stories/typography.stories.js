@@ -13,7 +13,7 @@ export default {
   decorators: [withA11y, withKnobs]
 };
 
-export const paragraph = () => (
+export const text = () => (
          <ThemeProvider theme={theme}>
     <Typography size="paragraph">
       paragraph
