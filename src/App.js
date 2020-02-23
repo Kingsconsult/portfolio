@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Helmet } from "react-helmet";
 
-import WhatILove from "../src/molecules/whatilove";
+import WhyHireMe from "../src/molecules/whyhireme";
 import { ThemeProvider } from "styled-components";
 const theme = {
   mode: "light"
@@ -17,7 +17,7 @@ function App() {
             style: "background : #Fff 0% 0% no-repeat padding-box"
           }}
         />
-        <WhatILove></WhatILove>
+        <WhyHireMe></WhyHireMe>
       </div>
     </ThemeProvider>
   );
