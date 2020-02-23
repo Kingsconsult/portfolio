@@ -1,16 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 import { Helmet } from "react-helmet";
-import NavLinks from "./components/links"
-import Button from "./components/buttons"
-import Typography from "./components/typography"
-import Circles from "./components/circles"
-import Line from "./components/lines"
-import Card from "./components/cards"
-import { ThemeProvider } from "styled-components"
-const theme={
-  mode:"light"
-}
+import { ThemeProvider } from "styled-components";
+import HeroInfo from "./molecules/heroinfo"
+const theme = {
+  mode: "light"
+};
 
 function App() {
   return (
@@ -22,25 +17,7 @@ function App() {
           }}
         />
         <div>
-          <h1>Vertical Card</h1>
-          <div>
-            <Card cardlayout="vertical" bgColor="white"></Card>
-          </div>
-        </div>
-        <div>
-          <h1>horizontal Card</h1>
-
-          <Card cardlayout="horizontal" bgColor="white"></Card>
-        </div>
-        <div>
-          <h1>horizontal Long</h1>
-
-          <Card cardlayout="horizontalLong" bgColor="white"></Card>
-        </div>
-        <div>
-          <h1>horizontal Banner</h1>
-
-          <Card cardlayout="horizontalBanner" bgColor="white"></Card>
+          <HeroInfo></HeroInfo>
         </div>
       </div>
     </ThemeProvider>
