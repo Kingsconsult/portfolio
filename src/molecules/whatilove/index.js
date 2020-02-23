@@ -1,5 +1,4 @@
 import React from "react";
-import { ThemeProvider } from "styled-components";
 import Typography from "../../components/typography";
 import Button from "../../components/buttons";
 import Line from "../../components/lines";
