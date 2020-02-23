@@ -4,32 +4,12 @@ import Card from "../../components/cards";
 import NavLinks from "../../components/links";
 import Button from "../../components/buttons";
 import kings_logo from "../../assets/images/kings_logo.jpg";
+import { navlist } from "./mixins";
 
 const theme = {
   mode: "light"
 };
-const navlist = [
-  {
-    path: "/",
-    pathname: "Home"
-  },
-  {
-    path: "/",
-    pathname: "Services"
-  },
-  {
-    path: "/",
-    pathname: "Portfolio"
-  },
-  {
-    path: "/",
-    pathname: "Review"
-  },
-  {
-    path: "/",
-    pathname: "Contact"
-  }
-];
+
 const NavBar = () => {
   return (
     <ThemeProvider theme={theme}>
