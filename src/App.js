@@ -2,11 +2,14 @@ import React from "react";
 import "./App.css";
 import { Helmet } from "react-helmet";
 
-import CreativeWork from "./molecules/creativeworks"
-import { ThemeProvider } from "styled-components"
-const theme={
-  mode:"light"
-}
+
+import RoundBackground from "../src/molecules/roundBackground";
+import { ThemeProvider } from "styled-components";
+import Card1 from "./organisms/card1";
+const theme = {
+  mode: "light"
+};
+
 
 
 function App() {
@@ -18,8 +21,7 @@ function App() {
             style: "background : #Ff3f 0% 0% no-repeat padding-box"
           }}
         />
-
-<CreativeWork></CreativeWork>
+        <Card1></Card1>
 
       </div>
     </ThemeProvider>
