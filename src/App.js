@@ -2,12 +2,12 @@ import React from "react";
 import "./App.css";
 import { Helmet } from "react-helmet";
 
-import { ThemeProvider } from "styled-components";
+import CreativeWork from "./molecules/creativeworks"
+import { ThemeProvider } from "styled-components"
+const theme={
+  mode:"light"
+}
 
-import HorizontalCard2 from "./organisms/horizontalCard2";
-const theme = {
-  mode: "light"
-};
 
 function App() {
   return (
@@ -18,7 +18,8 @@ function App() {
             style: "background : #Ff3f 0% 0% no-repeat padding-box"
           }}
         />
-        <NavBar></NavBar>
+
+<CreativeWork></CreativeWork>
 
       </div>
     </ThemeProvider>
