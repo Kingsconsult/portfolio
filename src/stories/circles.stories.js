@@ -33,7 +33,7 @@ export const circle = () => (
              {" "}
            </Circles>
            <Circles
-             bgColor="blueGrey"
+             bgColor="white"
              circleHeight="large"
              circleWidth="large"
              border="border"
