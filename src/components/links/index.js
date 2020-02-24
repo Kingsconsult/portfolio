@@ -10,7 +10,6 @@ const NavLinks = styled.a`
   text-align: left;
   letter-spacing: 0.rem;
   text-transform: uppercase;
-  font-family: Arial, sans-serif;
   ${navigationLinks};
   ${hover}
 `;
