@@ -5,8 +5,8 @@ import {textSize} from "./mixins"
 
 const Typography = styled.h1`
   ${color};
-  text-decoration: none;
   text-align: left;
+  font-weight: bold;
   letter-spacing: 0.5px;
   ${textSize};
 `;
