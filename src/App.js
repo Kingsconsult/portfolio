@@ -2,8 +2,8 @@ import React from "react";
 import "./App.css";
 import { Helmet } from "react-helmet";
 
-import RoundBackground from "../src/molecules/roundBackground";
 import { ThemeProvider } from "styled-components";
+import HorizontalCard2 from "./organisms/horizontalCard2";
 const theme = {
   mode: "light"
 };
@@ -17,7 +17,7 @@ function App() {
             style: "background : #Fff 0% 0% no-repeat padding-box"
           }}
         />
-        <RoundBackground></RoundBackground>
+        <HorizontalCard2></HorizontalCard2>
       </div>
     </ThemeProvider>
   );
