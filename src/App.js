@@ -2,10 +2,10 @@ import React from "react";
 import "./App.css";
 import { Helmet } from "react-helmet";
 
-
-import RoundBackground from "../src/molecules/roundBackground";
+import RoundBackground from "./molecules/roundBackground"
 import { ThemeProvider } from "styled-components";
-import Card1 from "./organisms/card1";
+import CircleDisplay from "./molecules/circleMolecule";
+
 const theme = {
   mode: "light"
 };
@@ -21,7 +21,7 @@ function App() {
             style: "background : #Ff3f 0% 0% no-repeat padding-box"
           }}
         />
-        <Card1></Card1>
+        <CircleDisplay></CircleDisplay>
 
       </div>
     </ThemeProvider>
