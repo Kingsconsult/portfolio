@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Helmet } from "react-helmet";
+
 import { ThemeProvider } from "styled-components";
 
 import HorizontalCard2 from "./organisms/horizontalCard2";
@@ -14,11 +15,11 @@ function App() {
       <div className="App">
         <Helmet
           bodyAttributes={{
-            style: "background : #Fff 0% 0% no-repeat padding-box"
+            style: "background : #Ff3f 0% 0% no-repeat padding-box"
           }}
         />
+        <NavBar></NavBar>
 
-        <HorizontalCard2></HorizontalCard2>
       </div>
     </ThemeProvider>
   );
