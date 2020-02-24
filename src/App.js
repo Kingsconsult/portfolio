@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
 import { Helmet } from "react-helmet";
-
-import RoundBackground from "../src/molecules/roundBackground";
+import RoundBackground from "./molecules/roundBackground"
 import { ThemeProvider } from "styled-components";
+import CircleDisplay from "./molecules/circleMolecule";
 const theme = {
   mode: "light"
 };
+
+
 
 function App() {
   return (
@@ -17,7 +19,7 @@ function App() {
             style: "background : #Fff 0% 0% no-repeat padding-box"
           }}
         />
-        <RoundBackground></RoundBackground>
+        <CircleDisplay></CircleDisplay>
       </div>
     </ThemeProvider>
   );

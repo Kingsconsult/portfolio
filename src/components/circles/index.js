@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import { circleHeight, cirlcesWidth, border, hover, hoverBorder } from "./mixins"
+import { circleHeight, cirlcesWidth, border, hover, hoverBorder, hoverColor } from "./mixins"
 import { color, bgColor } from "../colors"
 
 
@@ -15,6 +15,7 @@ const Circles = styled.div`
   ${circleHeight};
   ${hover};
   ${hoverBorder}
+  ${hoverColor}
 
 `;
 

@@ -8,7 +8,7 @@ const Typography = styled.h1`
   text-decoration: none;
   font-weight: bold;
   text-align: left;
-  letter-spacing: 0.5px;
+  letter-spacing: 0px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   ${textSize};
