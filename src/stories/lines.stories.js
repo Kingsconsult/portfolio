@@ -15,21 +15,15 @@ export default {
 };
 
 export const line = () => (
-         <ThemeProvider theme={theme}>
-           <div>
-             <h1>Vertical line</h1>
-             <Line
-               linelayout="vertical"
-               bgColor="blue"
-             ></Line>
-           </div>
-           <div>
-             <h1>horizontal line</h1>
+  <ThemeProvider theme={theme}>
+    <div>
+      <h1>Vertical line</h1>
+      <Line linelayout="vertical" bgColor="blue"></Line>
+    </div>
+    <div>
+      <h1>horizontal line</h1>
 
-             <Line
-               linelayout="horizontal"
-               bgColor="blue"
-             ></Line>
-           </div>
-         </ThemeProvider>
-       );
+      <Line linelayout="horizontal" bgColor="blue"></Line>
+    </div>
+  </ThemeProvider>
+);
