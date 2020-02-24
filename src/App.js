@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 
 import RoundBackground from "../src/molecules/roundBackground";
 import { ThemeProvider } from "styled-components";
+import HorizontalCard from "./organisms/card2";
 const theme = {
   mode: "light"
 };
@@ -17,7 +18,7 @@ function App() {
             style: "background : #Fff 0% 0% no-repeat padding-box"
           }}
         />
-        <RoundBackground></RoundBackground>
+        <HorizontalCard></HorizontalCard>
       </div>
     </ThemeProvider>
   );
