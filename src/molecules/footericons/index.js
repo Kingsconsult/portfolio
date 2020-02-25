@@ -5,8 +5,8 @@ import facebook from "../../assets/images/facebook.png";
 const FooterLogo = () => (
   <Circles
     bgColor="white"
-    circleHeight="medium"
-    circleWidth="medium"
+    circleHeight="small"
+    circleWidth="small"
     border="border"
         hover="blueBackground"
         style={{display: "flex", alignItems: "center", justifyContent: "center"}}
