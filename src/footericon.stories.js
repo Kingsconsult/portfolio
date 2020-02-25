@@ -1,22 +1,20 @@
 import React from "react";
 import { withA11y } from "@storybook/addon-a11y";
 import { withKnobs } from "@storybook/addon-knobs";
-
 import { ThemeProvider } from "styled-components";
-import WhatILove from "../molecules/whatilove";
+import FooterLogo from "./molecules/footericons";
 const theme = {
   mode: "light"
 };
 
 export default {
-  title: "WhatILove",
-  component: WhatILove,
-  decorators: [withA11y, withKnobs]
+  title: "Footer Logo",
+  component: FooterLogo,
+    decorators: [withA11y, withKnobs]
 };
 
-export const WhatILoveToDO = () => (
+export const circleMolecule = () => (
   <ThemeProvider theme={theme}>
-<WhatILove></WhatILove>
-
+    <FooterLogo></FooterLogo>
   </ThemeProvider>
 );

@@ -5,9 +5,11 @@ import { ThemeProvider } from "styled-components";
 import HorizontalBanner from "./molecules/horizontalBanner";
 
 
+
 const theme = {
   mode: "light"
 };
+
 
 
 
