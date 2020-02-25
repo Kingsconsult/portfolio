@@ -6,7 +6,7 @@ import { ThemeProvider } from "styled-components";
 import HorizontalBanner from "./molecules/horizontalBanner";
 import HorizontalCard from "./organisms/card2";
 import FooterLinks from "./molecules/footerLinks";
-
+import FooterLogos from "./organisms/footericons";
 
 const theme = {
   mode: "light"
@@ -22,7 +22,8 @@ function App() {
           }}
         />
 
-        <FooterLinks></FooterLinks>
+        <FooterLogos></FooterLogos>
+
       </div>
     </ThemeProvider>
   );
