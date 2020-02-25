@@ -2,16 +2,15 @@ import React from "react";
 import "./App.css";
 import { Helmet } from "react-helmet";
 
-import RoundBackground from "./molecules/roundBackground"
+import RoundBackground from "./molecules/roundBackground";
 import { ThemeProvider } from "styled-components";
 
 import HorizontalCard from "./organisms/card2";
+import FooterLinks from "./molecules/footerLinks";
 
 const theme = {
   mode: "light"
 };
-
-
 
 function App() {
   return (
@@ -23,8 +22,7 @@ function App() {
           }}
         />
 
-        <HorizontalCard></HorizontalCard>
-
+        <FooterLinks></FooterLinks>
       </div>
     </ThemeProvider>
   );
