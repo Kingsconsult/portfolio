@@ -1,16 +1,15 @@
 import React from "react";
 import "./App.css";
 import { Helmet } from "react-helmet";
-
 import WhyHireMe from "../src/molecules/whyhireme";
-
 import { ThemeProvider } from "styled-components";
+import FooterLogo from "./molecules/footericons";
 
-import HorizontalCard from "./organisms/card2";
 
 const theme = {
   mode: "light"
 };
+
 
 
 
@@ -24,6 +23,7 @@ function App() {
           }}
         />
         <WhyHireMe></WhyHireMe>
+<FooterLogo></FooterLogo>
 
       </div>
     </ThemeProvider>
