@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 import { Helmet } from "react-helmet";
-import WhyHireMe from "../src/molecules/whyhireme";
 import { ThemeProvider } from "styled-components";
-import FooterLogo from "./molecules/footericons";
+import HorizontalBanner from "./molecules/horizontalBanner";
+
 
 
 const theme = {
@@ -19,12 +19,10 @@ function App() {
       <div className="App">
         <Helmet
           bodyAttributes={{
-            style: "background : #Ff3f 0% 0% no-repeat padding-box"
+            style: "background : #Fee 0% 0% no-repeat padding-box"
           }}
         />
-        <WhyHireMe></WhyHireMe>
-<FooterLogo></FooterLogo>
-
+<HorizontalBanner></HorizontalBanner>
       </div>
     </ThemeProvider>
   );
