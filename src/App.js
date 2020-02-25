@@ -2,14 +2,14 @@ import React from "react";
 import "./App.css";
 import { Helmet } from "react-helmet";
 
-import RoundBackground from "./molecules/roundBackground"
 import { ThemeProvider } from "styled-components";
+import FooterLogo from "./molecules/footericons";
 
-import HorizontalCard from "./organisms/card2";
 
 const theme = {
   mode: "light"
 };
+
 
 
 
@@ -22,8 +22,7 @@ function App() {
             style: "background : #Ff3f 0% 0% no-repeat padding-box"
           }}
         />
-
-        <HorizontalCard></HorizontalCard>
+<FooterLogo></FooterLogo>
 
       </div>
     </ThemeProvider>
