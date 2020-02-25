@@ -1,44 +1,39 @@
 import React from "react";
-import { ThemeProvider } from "styled-components";
 import Typography from "../../components/typography";
 import Button from "../../components/buttons";
 
-const theme = {
-  mode: "light"
-};
-
 const HeroInfo = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          width: "450px"
-        }}
-      >
-        <div>
-          <Typography size="small">HELLO!</Typography>
-          <Typography size={"xlarge"} style={{ lineHeight: "50px" }}>
-            I'm Kingsley Okpara
-          </Typography>
-          <Typography size={"paragraph"}>
-            Lorem ipsum dolor sit amet, aliquet vestibulum vel quam posuere
-            iaculis porta, ut lorem sem suspendisse, proin faucibus eu posuere
-            malesuada, mattis hymenaeos arcu volutpat, tortor consectetuer est
-            sollicitudin magnis scelerisque risus.
-          </Typography>
-        </div>
-        <Button
-          bgColor="blue"
-          color="white"
-          padding="small"
-          style={{ width: "180px" }}
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        width: "450px"
+      }}
+    >
+      <div>
+        <Typography size="small">HELLO!</Typography>
+        <Typography size={"xlarge"} style={{ lineHeight: "50px" }}>
+          I'm Kingsley Okpara
+        </Typography>
+        <Typography
+          size={"paragraph"}
+          style={{ lineHeight: "20px", width: "35vw", marginTop: "20px" }}
         >
-          DOWNLOAD CV
-        </Button>
+          Lorem ipsum dolor sit amet, aliquet vestibulum vel quam posuere
+          iaculis porta, ut lorem sem suspendisse, proin faucibus eu posuere
+          malesuada, mattis hymenaeos arcu volutpat.
+        </Typography>
       </div>
-    </ThemeProvider>
+      <Button
+        bgColor="blue"
+        color="white"
+        padding="small"
+        style={{ width: "180px", marginTop: "30px" }}
+      >
+        DOWNLOAD CV
+      </Button>
+    </div>
   );
 };
 
