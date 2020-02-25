@@ -3,14 +3,12 @@ import "./App.css";
 import { Helmet } from "react-helmet";
 
 import { ThemeProvider } from "styled-components";
-import FooterLogos from "./organisms/footericons";
 
+import FooterLogos from "./organisms/footericons";
 
 const theme = {
   mode: "light"
 };
-
-
 
 function App() {
   return (
@@ -23,7 +21,6 @@ function App() {
         />
 
         <FooterLogos></FooterLogos>
-
       </div>
     </ThemeProvider>
   );
