@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 import { Helmet } from "react-helmet";
-
 import RoundBackground from "./molecules/roundBackground";
 import { ThemeProvider } from "styled-components";
-
+import HorizontalBanner from "./molecules/horizontalBanner";
 import HorizontalCard from "./organisms/card2";
 import FooterLinks from "./molecules/footerLinks";
+
 
 const theme = {
   mode: "light"
@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <Helmet
           bodyAttributes={{
-            style: "background : #Ff3f 0% 0% no-repeat padding-box"
+            style: "background : #Fee 0% 0% no-repeat padding-box"
           }}
         />
 

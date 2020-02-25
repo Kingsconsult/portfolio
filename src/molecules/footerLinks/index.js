@@ -3,6 +3,7 @@ import NavLinks from "../../components/links";
 
 const FooterLinks = () => (
   <div style={{ display: "flex", width: "45vw", justifyContent: "space-around" }}>
+
     <NavLinks color="black" hover="blueBackground" linkTyle="footer">
       HOME
     </NavLinks>
