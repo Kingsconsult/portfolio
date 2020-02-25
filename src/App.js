@@ -2,10 +2,9 @@ import React from "react";
 import "./App.css";
 import { Helmet } from "react-helmet";
 
-import RoundBackground from "./molecules/roundBackground"
 import { ThemeProvider } from "styled-components";
+import FooterLogos from "./organisms/footericons";
 
-import HorizontalCard from "./organisms/card2";
 
 const theme = {
   mode: "light"
@@ -23,7 +22,7 @@ function App() {
           }}
         />
 
-        <HorizontalCard></HorizontalCard>
+        <FooterLogos></FooterLogos>
 
       </div>
     </ThemeProvider>
