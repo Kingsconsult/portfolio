@@ -15,21 +15,21 @@ const WhatILove = () => {
       <div>
         <Typography
           size="xlarge"
-          style={{ lineHeight: "0px", marginTop: "30px" }}
+          style={{ marginTop: "30px" }}
         >
           What Actually
         </Typography>
-        <Typography size="xlarge" style={{ lineHeight: "80px" }}>
+        <Typography size="xlarge" style={{ lineHeight: "40px" }}>
           I Love to Do
         </Typography>
         <Line
           linelayout="vertical"
           bgColor="blue"
-          style={{ marginBottom: "20px" }}
+          style={{ marginBottom: "20px", marginTop: "10px" }}
         ></Line>
         <Typography
           size={"paragraph"}
-          style={{ lineHeight: "20px", width: "350px" }}
+          style={{ lineHeight: "15px", width: "350px" }}
         >
           Lorem ipsum dolor sit amet, aliquet vestibulum vel quam posuere
           iaculis porta, ut lorem sem suspendisse, proin faucibus eu posuere
@@ -37,7 +37,7 @@ const WhatILove = () => {
         </Typography>
         <Typography
           size={"paragraph"}
-          style={{ lineHeight: "20px", width: "350px", margin: "30px 0px" }}
+          style={{ lineHeight: "15px", width: "350px", margin: "30px 0px" }}
         >
           Lorem ipsum dolor sit amet, aliquet vestibulum vel quam posuere
           iaculis porta, ut lorem sem suspendisse, proin faucibus eu posuere
@@ -48,7 +48,7 @@ const WhatILove = () => {
         bgColor="blue"
         color="white"
         padding="small"
-        style={{ width: "180px" }}
+        style={{ width: "150px" }}
       >
         SEE MORE
       </Button>
