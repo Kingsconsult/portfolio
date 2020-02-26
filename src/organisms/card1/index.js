@@ -11,11 +11,11 @@ const Card1 = () => {
           cardlayout="vertical"
           bgColor="white"
             >
-                <div style={{left: "20px", position: "absolute", marginRight:"10px"}}>
+                <div style={{left: "20px", position: "relative"}}>
 
           <RoundBackground></RoundBackground>
           <Typography size={"small"} style={{fontWeight: "bold"}}>App Development</Typography>
-          <Typography SIZE="paragraph" style={{ lineHeight: "20px" }}>
+          <Typography SIZE="paragraph" style={{ lineHeight: "22px" }}>
             Lorem ipsum dolor sit amet, imperdi ut consectetuer
           </Typography>
                 </div>
