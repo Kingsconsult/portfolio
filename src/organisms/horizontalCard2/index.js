@@ -8,10 +8,10 @@ const HorizontalCard2 = () => (
     <div
       style={{
         display: "flex",
-        width: "350px",
         alignItems: "start",
         flexDirection: "column",
-        marginLeft: "20px"
+        marginLeft: "20px",
+        paddingTop: "30px"
       }}
     >
       <div style={{ display: "flex", margin: "10px" }}>
@@ -32,13 +32,14 @@ const HorizontalCard2 = () => (
         </div>
       </div>
 
-      <div style={{width: "200px"}}> 
+      <div style={{ width: "200px" }}>
         <Typography
-          size="paragraph"
-          style={{ lineHeight: "16px", marginTop: "-10px", fontSize: "10px", marginRight: "10px"}}
+          size="small"
+          style={{ lineHeight: "26px", fontSize: "16px", width: "350px" }}
         >
           Lorem ipsum dolor sit amet, imperdiet ut consectetuer molestie nulla,
-          imperdiet ut consectetuer molestie nulla
+          imperdiet ut consectetuer molestie nulla, imperdiet ut consectetuer
+          molestie nulla,
         </Typography>
       </div>
     </div>
