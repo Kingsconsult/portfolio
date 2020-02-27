@@ -6,11 +6,11 @@ import WhatILovePage from "./pages/whatilove";
 import LandingPage from "./pages/landingPage";
 import WhyHireMePage from "./pages/whathireme";
 import CreativePage from "./pages/mycreativepage"
+import FooterPage from "./pages/footerPage";
 
 const theme = {
   mode: "light"
 };
-
 
 
 function App() {
@@ -22,10 +22,12 @@ function App() {
             style: "background : white 0% 0% no-repeat padding-box"
           }}
         />
-        <LandingPage></LandingPage>
+        {/* <LandingPage></LandingPage>
         <WhatILovePage></WhatILovePage>
         <CreativePage></CreativePage>
-        <WhyHireMePage></WhyHireMePage>
+        <WhyHireMePage></WhyHireMePage> */}
+        <FooterPage></FooterPage>
+
       </div>
     </ThemeProvider>
   );

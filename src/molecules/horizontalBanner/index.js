@@ -6,13 +6,13 @@ import Button from "../../components/buttons";
 const HorizontalBanner = () => (
   <Card
     style={{
-      width: "75vw",
-      height: "15vh",
+      width: "65vw",
       display: "flex",
-      justifyContent: "space-around"
+      justifyContent: "space-around",
+      height: "180px"
     }}
   >
-    <div style={{ marginTop: "50px" }}>
+    <div style={{ paddingTop: "20px" }}>
       <Typography size="small">Have any project in mind? Say Hello at</Typography>
       <Typography size="xlarge" style={{ color: "blue" }}>
         kingsconsult001@gmail.com
