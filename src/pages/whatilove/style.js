@@ -32,7 +32,7 @@ justify-content: space-between;
     }
     .circle {
         height: 25vh;
-        background-color: #C2C9FD;
+        background-color: #EDF1fc;
         display: flex;
         justify-content: space-around;
         .smallcircle {

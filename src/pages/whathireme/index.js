@@ -1,34 +1,35 @@
 import React from "react";
-import WhatILove from "../../molecules/whatilove";
-import Card1 from "../../organisms/card1";
-import CircleDisplay from "../../molecules/circleMolecule";
-import WhatILoveStyle from "./style";
+
+import WhyHireMe from "../../molecules/whyhireme";
+import HorizontalCard from "../../organisms/card2";
+import WhyHireMeStyle from "./style";
+import Decagon from "../../assets/images/Decagon.png";
 
 const WhyHireMePage = () => (
-  //   <WhatILoveStyle>
-  <div className="whathireme">
-    <div className="main">
-      <div className="typo">
-        <WhatILove className="what"></WhatILove>
-      </div>
-      <div className="cards">
-        <div className="another">
-          <Card1 className="single1"></Card1>
-          <Card1 className="single2"></Card1>
-          <Card1 className="single2"></Card1>
+  <WhyHireMeStyle>
+    <div className="whyhireme">
+      <div className="main">
+        <div className="typo">
+          <WhyHireMe className="what"></WhyHireMe>
+        </div>
+        <div className="cards">
+          <div className="horizontalcards">
+            <HorizontalCard className="single1"></HorizontalCard>
+            <HorizontalCard className="single2"></HorizontalCard>
+            <HorizontalCard className="single2"></HorizontalCard>
+          </div>
         </div>
       </div>
-    </div>
-    <div className="circle">
-      <div className="smallcircle">
-        <CircleDisplay className="small1"></CircleDisplay>
-        <CircleDisplay className="small1"></CircleDisplay>
-        <CircleDisplay className="small1"></CircleDisplay>
-        <CircleDisplay className="small1"></CircleDisplay>
+      <div className="circle">
+        <div className="logos"></div>
+        <img src={Decagon} alt="decagon" style={{ paddingRight: "50px" }} />
+        <img src={Decagon} alt="decagon" style={{ paddingRight: "50px" }} />
+        <img src={Decagon} alt="decagon" style={{ paddingRight: "50px" }} />
+        <img src={Decagon} alt="decagon" style={{ paddingRight: "50px" }} />
+        <img src={Decagon} alt="decagon" style={{ paddingRight: "50px" }} />
       </div>
     </div>
-  </div>
-  //   </WhatILoveStyle>
+  </WhyHireMeStyle>
 );
 
 export default WhyHireMePage;
