@@ -22,10 +22,10 @@ function App() {
             style: "background : white 0% 0% no-repeat padding-box"
           }}
         />
-        {/* <LandingPage></LandingPage>
+        <LandingPage></LandingPage>
         <WhatILovePage></WhatILovePage>
         <CreativePage></CreativePage>
-        <WhyHireMePage></WhyHireMePage> */}
+        <WhyHireMePage></WhyHireMePage>
         <FooterPage></FooterPage>
 
       </div>
