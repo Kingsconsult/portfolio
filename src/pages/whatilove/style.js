@@ -13,9 +13,12 @@ justify-content: space-between;
     .main{
         display: flex;
         justify-content: space-around;
-        height: 75vh;
+        height: 80vh;
         .cards {
-            .another {
+            .another1 {
+              /* display: flex;
+              flexDirection: row;
+              paddingBottom: 20px; */
                 .single1 {
 
                     position: relative;
@@ -29,12 +32,15 @@ justify-content: space-between;
     }
     .circle {
         height: 25vh;
-        background-color: #C2C9FD;
+        background-color: #EDF1fc;
         display: flex;
         justify-content: space-around;
         .smallcircle {
             top: 20px;
             position: relative;
+            display: flex;
+            justify-content: space-around;
+            width: 70vw;
             .small1 {
                 margin-left: 50px
             }
