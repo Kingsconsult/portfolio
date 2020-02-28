@@ -4,6 +4,7 @@ import NavLinks from "../../components/links";
 import Button from "../../components/buttons";
 import kings_logo from "../../assets/images/kings_logo.jpg";
 import { navlist } from "./mixins";
+import { Link } from "react-router-dom";
 
 const theme = {
   mode: "light"
@@ -35,31 +36,42 @@ const NavBar = () => {
           <img
             src={kings_logo}
             alt="kings"
-            style={{alignSelf: "center", marginRight: "250px"}}
+            style={{ alignSelf: "center", marginRight: "250px" }}
           />
           {navlist.map(({ path, pathname }) => (
-            <NavLinks
+            <Link
               to={path}
-              color="black"
-              linkType="nav"
-              hover="blueBackground"
-              style={{
-                display: "flex",
-                marginLeft: "25px"
-              }}
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
             >
-              {pathname}
-            </NavLinks>
+              {" "}
+              <NavLinks
+                to={path}
+                color="black"
+                linkType="nav"
+                hover="blueBackground"
+                style={{
+                  display: "flex",
+                  marginLeft: "25px"
+                }}
+              >
+                {pathname}
+              </NavLinks>
+            </Link>
           ))}
-
-          <Button
-            bgColor="blue"
-            color="white"
-            padding="small"
-            style={{ marginLeft: "30px" }}
-          >
-            HIRE ME
-          </Button>
+          <Link to="/hireme">
+            <Button
+              bgColor="blue"
+              color="white"
+              padding="small"
+              style={{ marginLeft: "30px" }}
+            >
+              HIRE ME
+            </Button>
+          </Link>
         </div>
       </Card>
     </div>
