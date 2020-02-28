@@ -4,19 +4,19 @@ export const navlist = [
     pathname: "Home"
   },
   {
-    path: "/",
+    path: "/whatilove",
     pathname: "Services"
   },
   {
-    path: "/",
+    path: "/creative",
     pathname: "Portfolio"
   },
   {
-    path: "/",
+    path: "/hireme",
     pathname: "Review"
   },
   {
-    path: "/",
+    path: "/footer",
     pathname: "Contact"
   }
 ];
