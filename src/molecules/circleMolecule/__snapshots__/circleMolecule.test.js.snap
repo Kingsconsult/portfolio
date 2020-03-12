@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cards renders correctly when called  1`] = `
+<div
+  className="sc-AxirZ gQzsnb"
+  color="black"
+  size="small"
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <h1
+      className="sc-AxiKw jCCQlQ"
+      size="big"
+      style={
+        Object {
+          "marginTop": "5px",
+        }
+      }
+    >
+      1285
+    </h1>
+    <h1
+      className="sc-AxiKw bDqPLV"
+      size="small"
+      style={
+        Object {
+          "marginTop": "-30px",
+        }
+      }
+    >
+      PROJECTS
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`circles displays  correctly when called  1`] = `
+<div
+  className="sc-AxirZ gQzsnb"
+  color="black"
+  size="small"
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <h1
+      className="sc-AxiKw jCCQlQ"
+      size="big"
+      style={
+        Object {
+          "marginTop": "5px",
+        }
+      }
+    >
+      1285
+    </h1>
+    <h1
+      className="sc-AxiKw bDqPLV"
+      size="small"
+      style={
+        Object {
+          "marginTop": "-30px",
+        }
+      }
+    >
+      PROJECTS
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`cirl renders correctly when called  1`] = `
+<div
+  className="sc-AxirZ gQzsnb"
+  color="black"
+  size="small"
+>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <h1
+      className="sc-AxiKw jCCQlQ"
+      size="big"
+      style={
+        Object {
+          "marginTop": "5px",
+        }
+      }
+    >
+      1285
+    </h1>
+    <h1
+      className="sc-AxiKw bDqPLV"
+      size="small"
+      style={
+        Object {
+          "marginTop": "-30px",
+        }
+      }
+    >
+      PROJECTS
+    </h1>
+  </div>
+</div>
+`;

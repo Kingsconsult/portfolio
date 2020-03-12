@@ -5,6 +5,7 @@ import Button from "../../components/buttons";
 import kings_logo from "../../assets/images/kings_logo.jpg";
 import { navlist } from "./mixins";
 import { Link } from "react-router-dom";
+import ThemeContext from "../../contextProvider/themeContext"
 
 const theme = {
   mode: "light"
@@ -62,16 +63,17 @@ const NavBar = () => {
               </NavLinks>
             </Link>
           ))}
-          <Link to="/hireme">
+          {/* <Link to="/hireme"> */}
             <Button
               bgColor="blue"
               color="white"
               padding="small"
-              style={{ marginLeft: "30px" }}
-            >
-              HIRE ME
+              // style={{ marginLeft: "30px" }}
+              // onClick={console.log('hi')}
+              >
+              CHANGE THEME
             </Button>
-          </Link>
+          {/* </Link> */}
         </div>
       </Card>
     </div>

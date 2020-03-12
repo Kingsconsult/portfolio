@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cards renders correctly when called  1`] = `
+<a
+  className="sc-AxirZ iQxfjs"
+  size="nav"
+/>
+`;
+
+exports[`links renders correctly when called  1`] = `
+<a
+  className="sc-AxirZ iQxfjs"
+  size="nav"
+/>
+`;

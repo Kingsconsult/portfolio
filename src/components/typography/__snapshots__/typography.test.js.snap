@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cards renders correctly when called  1`] = `
+<h1
+  className="sc-AxirZ iNZWKN"
+  size="small"
+/>
+`;
+
+exports[`typography renders correctly when called  1`] = `
+<h1
+  className="sc-AxirZ iNZWKN"
+  size="small"
+/>
+`;
