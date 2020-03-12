@@ -1,18 +1,18 @@
 import React from 'react';
 import renderer from "react-test-renderer";
-import Button from "./index";
-import snapshotDiff from "snapshot-diff";
+import Links  from "./index";
+ 
 import { ThemeProvider } from "styled-components";
 const theme = {
   mode: "light"
 };
 
 
-it("renders correctly when called ", () => {
+it("links renders correctly when called ", () => {
   const tree = renderer
     .create(
       <ThemeProvider theme={theme}>
-            <Button />
+            <Links />
       </ThemeProvider>
     )
     .toJSON();
